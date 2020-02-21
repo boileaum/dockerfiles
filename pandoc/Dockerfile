@@ -8,6 +8,7 @@ RUN apt-get update --fix-missing && \
     make \
     pandoc \
     texlive-xetex \
+    texlive-lang-french \
     texlive-fonts-extra \
     texlive-math-extra && \
     apt-get clean && \
