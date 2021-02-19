@@ -1,9 +1,8 @@
+FROM node:latest
+
 # LABEL about the custom image
 LABEL maintainer="matthieu.boileau@math.unistra.fr"
 LABEL description="This is custom Docker Image from https://github.com/jibon57/bbb-recorder"
-
-# Download base image debian
-FROM node:latest
 
 # Create app directory
 WORKDIR /root
