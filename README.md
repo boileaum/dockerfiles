@@ -13,8 +13,3 @@ A set of Dockerfiles to be built automatically on DockerHub:
 * [python](https://hub.docker.com/repository/docker/boileaum/python3)
 * [python3-alpine](https://hub.docker.com/repository/docker/boileaum/pelican)
 * [tf_cnn_benchmark](https://hub.docker.com/repository/docker/boileaum/tf_cnn_benchmark)
-
-Unused Docker images:
-
-* easybuild
-* flang
