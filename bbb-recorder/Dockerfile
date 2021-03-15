@@ -2,7 +2,7 @@ FROM node:latest
 
 # LABEL about the custom image
 LABEL maintainer="matthieu.boileau@math.unistra.fr"
-LABEL description="This is custom Docker Image from https://github.com/jibon57/bbb-recorder"
+LABEL description="A custom Docker Image for https://github.com/rolanddenis/bbb-recorder"
 
 # Create app directory
 WORKDIR /root
@@ -16,7 +16,7 @@ RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app &&
     add-apt-repository ppa:jonathonf/ffmpeg-4 && \
     apt-get -y install ffmpeg xvfb
 
-RUN git clone https://github.com/jibon57/bbb-recorder && \
+RUN git clone https://github.com/rolanddenis/bbb-recorder && \
     cd bbb-recorder && \
     npm install --ignore-scripts && \
     cp .env.example .env
