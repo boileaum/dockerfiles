@@ -13,6 +13,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     texlive-latex-recommended \
     texlive-fonts-recommended \
     texlive-lang-french \
+    latexmk \
     zip \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
