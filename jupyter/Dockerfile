@@ -11,7 +11,10 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     curl \
     rsync \
     texlive-latex-recommended \
+    texlive-latex-extra \
     texlive-fonts-recommended \
+    texlive-fonts-extra \
+    texlive-xetex \
     texlive-lang-french \
     latexmk \
     zip \
