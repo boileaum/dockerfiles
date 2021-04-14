@@ -13,6 +13,7 @@ RUN apt-get update && apt-get -yq dist-upgrade \
     texlive-lang-french \
     latexmk \
     imagemagick \
+    librsvg2-bin \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
