@@ -1,6 +1,6 @@
 appmode
 bash_kernel
-bookbook
+git+https://github.com/boileaum/bookbook.git@master
 bs4
 folium
 geocoder
