@@ -1,0 +1,8 @@
+FROM jupyter/minimal-notebook
+
+# From Jupyter Project <jupyter@googlegroups.com>
+
+LABEL maintainer="Matthieu Boileau <matthieu.boileau@math.unistra.fr>"
+
+USER root
+

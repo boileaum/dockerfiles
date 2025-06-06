@@ -15,8 +15,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update --fix-missing && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-ADD https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-amd64.deb /tmp/
-RUN dpkg -i /tmp/pandoc-2.19.2-1-amd64.deb
+ADD https://github.com/jgm/pandoc/releases/download/2.19.2/pandoc-2.19.2-1-arm64.deb /tmp/
+RUN dpkg -i /tmp/pandoc-2.19.2-1-arm64.deb
 
 RUN useradd -m -s /bin/bash euler
 ENV HOME /home/euler

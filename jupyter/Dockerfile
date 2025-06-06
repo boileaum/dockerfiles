@@ -30,3 +30,5 @@ RUN chmod g+w -R /opt/conda/etc/jupyter/nbconfig
 # Switch back to NB_USER to avoid accidental container runs as root
 USER $NB_USER
 WORKDIR $HOME/work
+
+USER root
